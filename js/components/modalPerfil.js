@@ -1,6 +1,6 @@
-fetch('../../html/components/rodape.html')
+fetch('../../html/components/modalPerfil.html')
     .then(response => response.text())
     .then(data => {
-        document.getElementById('my-rodape-importacao').innerHTML = data;
+        document.getElementById('my-modalPerfil-importacao').innerHTML = data;
     })
     .catch(error => console.error('Erro ao carregar a página:', error));

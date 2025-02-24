@@ -1,61 +1,38 @@
-.my-menu-navbar {
-    text-align: center;
-}
-
-.my-menu-efeito {
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    top: 0;
+/* Container */
+.my-menu-container {
+    position: fixed;
+    background-color: var(--corBranco);
+    box-shadow: var(--corSombra);
     width: 100%;
-    margin-bottom: 3.5%;
+    z-index: 100;
+    top: 0;
 }
 
 /* Logo */
 .my-menu-logo {
-    height: 50px;
+    height: 60px;
 }
 
 .my-menu-logoFisio {
-    color: black;
+    color: var(--corPreto);
+    font-size: 18px;
     font-weight: 500;
 }
 
 .my-menu-logoFit {
-    color: red;
+    color: var(--corVermelhoClaro);
+    font-size: 18px;
     font-weight: 500;
-}
-
-.my-menu-logoFormatacao {
-    text-decoration: none;
 }
 
 /* Links */
-.my-menu-links {
-    color: black;
-    margin: 0 10px;
+.my-menu-links li a {
+    color: var(--corPreto);
     text-decoration: none;
-    font-weight: 500;
 }
 
-.my-menu-links:hover {
-    color: red;
-}
-
-/* Responsividade */
-@media (max-width: 990px) {
-    .my-menu-navbar .nav-item {
-        font-size: 20px;
-        margin: 10px 0;
-    }
-
-    .my-menu-btnPerfil {
-        font-size: 20px;
-    }
-
-    .my-menu-responsividadeIconesBotao {
-        margin: 20px 0;
-    }
+.my-menu-links li a:hover {
+    color: var(--corVermelhoEscuro);
 }
 
 /* Btn Perfil */

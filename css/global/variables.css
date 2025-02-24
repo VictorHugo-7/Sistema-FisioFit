@@ -1,8 +1,10 @@
 :root {
-    --cinza: #6C757D;
-    --branco: #ffffff;
-    --vermelhoClaro: #F2676E;
-    --vermelhoEscuro: #B70F18;
-    --preto: #000000;
-    --pretoSecundario: #111111;
+    --corCinza: #6C757D;
+    --corPreto: #000000;
+    --corPretoSecundario: #111111;
+    --corBranco: #ffffff;
+    --corSombra: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
+    --corVermelhoClaro: #F2676E;
+    --corVermelhoEscuro: #B70F18;
 }

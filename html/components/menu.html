@@ -1,79 +1,30 @@
-<div class="my-menu-efeito">
-    <div class="container">
-        <div class="row">
-            <div class="my-menu-navbar navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
+<nav class="my-menu-container">
+    <div class="navbar navbar-expand-lg mx-5">
 
-                    <!-- Logo -->
-                    <a href="index.html" class="my-menu-logoFormatacao">
-                        <img class="my-menu-logo" src="frontend/images/Logo.svg" alt="Logo FisioFit">
-                        <span class="my-menu-logoFisio">Fisio</span><span class="my-menu-logoFit">Fit</span>
-                    </a>
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img class="my-menu-logo" src="../../midia/components/logo/logoFisioFit.svg" alt=""> <span class="my-menu-logoFisio">Fisio</span><span class="my-menu-logoFit">Fit</span>
+        </a>
 
-                    <!-- Responsividade -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+        <!-- Botão Responsivo -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="my-menu-togglerIcon" class="fa-solid fa-bars"></i>
+        </button>
 
-                    <!-- Itens Menu -->
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="my-menu-links" aria-current="page"
-                                    href="index.html">Home</a> </li>
-                            <li class="nav-item d-none" id="exercicios-nav"><a class="my-menu-links"
-                                    aria-current="page" href="#">Exercícios</a>
-                            </li>
-                            <li class="nav-item d-none" id="criar-lembretes-nav"><a class="my-menu-links"
-                                    aria-current="page" href="#">Criar Lembretes</a>
-                            </li>
-                            <li class="nav-item d-none" id="fisioterapeutas-nav"><a class="my-menu-links"
-                                    aria-current="page" href="#">Fisioterapeutas</a></li>
-                            <li class="nav-item d-none" id="pacientes-nav"><a class="my-menu-links"
-                                    aria-current="page" href="#">Pacientes</a>
-                            </li>
-                            <li class="nav-item d-none" id="gerenciamento-nav"><a class="my-menu-links"
-                                    aria-current="page" id="gerenciamento-nav" href="#">Gerenciamento</a></li>
-                        </ul>
-
-                        <div class="my-menu-responsividadeIconesBotao">
-                            <!-- Btn - Paciente -->
-                            <span class="d-none" id="icone-paciente"> <img
-                                    src="frontend/images/iconeMenuPaciente.svg" alt="" class="mx-2"> </span>
-
-                            <!-- Btn - Fisioterapeuta -->
-                            <span class="d-none" id="icone-medico"> <img
-                                    src="frontend/images//iconeMenuFisioterapeuta.svg" alt=""> </span>
-
-                            <!-- Btn Login -->
-                            <a href="#" class=" show my-menu-btnPerfil mx-2" id="botao-login" data-bs-toggle="modal"
-                                data-bs-target="#loginModal">
-                                <i class="fa-solid fa-user" style="color: white;"></i><span
-                                    style="font-weight: 500;">
-                                    Login</span>
-                            </a>
-
-                            <!-- Btn Logout -->
-                            <a href="#" class="d-none my-menu-btnPerfil mx-2" id="botao-logout" onclick="logout()">
-                                <i class="fa fa-sign-out" aria-hidden="true" style="color: white"></i>
-                                <span style="font-weight: 500;">
-                                    Logout
-                                </span>
-                            </a>
-
-                            <!-- Btn Perfil -->
-                            <a href="#" class="my-menu-btnPerfil mx-2 d-none" id="perfil-nav" data-bs-toggle="modal"
-                                data-bs-target="#perfilModal">
-                                <i class="fa-solid fa-user" style="color: white;"></i><span
-                                    style="font-weight: 500;">
-                                    Perfil</span>
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="my-menu-links navbar-nav ms-auto d-flex align-items-center gap-4">
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Lembretes</a></li>
+                <li><a href="">Pacientes</a></li>
+                <li><a href="">Fisioterapeutas</a></li>
+                <li><img src="../../midia/components/menu/iconeFisioterapeuta.svg" alt=""></li>
+                <li><img src="../../midia/components/menu/iconePaciente.svg" alt=""></li>
+                <a class="my-menu-btnPerfil" href="#">
+                    <i class="fa-solid fa-user"></i> Perfil
+                </a>
+            </ul>
         </div>
-    </div>
+    </nav>
 </div>
