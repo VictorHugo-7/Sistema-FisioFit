@@ -1,0 +1,46 @@
+/* Esqueceu Sua Senha */
+.my-login-esqueceuSuaSenha {
+    color: var(--corVermelhoClaro);
+    text-decoration: none;
+}
+
+.my-login-esqueceuSuaSenha:hover {
+    color: var(--corVermelhoClaro);
+    text-decoration: underline;
+}
+
+
+
+/* Btn Entrar */
+.my-login-btnEntrar {
+    width: 100%;
+    background-color: var(--corVermelhoEscuro);
+    color: var(--corBranco);
+    box-shadow: var(--corSombra);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.my-login-btnEntrar:hover {
+    opacity: 90%;
+}
+
+
+
+/* Linha Horizontal */
+.my-login-hr {
+    color: var(--corCinza);
+}
+
+
+
+/* Clique Aqui */
+.my-login-cliqueAqui {
+    color: var(--corVermelhoClaro);
+    text-decoration: none;
+}
+
+.my-login-cliqueAqui:hover {
+    color: var(--corVermelhoClaro);
+    text-decoration: underline;
+}
