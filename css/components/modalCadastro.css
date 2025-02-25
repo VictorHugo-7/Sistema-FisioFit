@@ -1,5 +1,5 @@
-/* Btn Entrar */
-.my-login-btnEntrar {
+/* Btn Cadastrar */
+.my-cadastro-btnCadastrar {
     width: 100%;
     background-color: var(--corVermelhoEscuro);
     color: var(--corBranco);
@@ -9,26 +9,27 @@
     border-radius: 10px;
 }
 
-.my-login-btnEntrar:hover {
+.my-cadastro-btnCadastrar:hover {
     opacity: 90%;
+    cursor: pointer;
 }
 
 
 
 /* Linha Horizontal */
-.my-login-hr {
+.my-cadastro-hr {
     color: var(--corCinza);
 }
 
 
 
-/* Clique Aqui */
-.my-login-cliqueAqui {
-    color: var(--corVermelhoClaro);
+/* Tem Conta ? */
+.my-cadastro-temConta {
+    color: var(--corVermelhoEscuro);
     text-decoration: none;
 }
 
-.my-login-cliqueAqui:hover {
-    color: var(--corVermelhoClaro);
+.my-cadastro-temConta:hover {
+    color: var(--corVermelhoEscuro);
     text-decoration: underline;
 }
