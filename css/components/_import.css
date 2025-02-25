@@ -1,8 +1,3 @@
-/* Olhe as especificações para adicionar classes: */
-/* Usar o prefixo ( my- ) para diferenciar nossas classes das classes do bootstrap */
-/* Usar o prefixo my- inciais do arquivo que estamos usando */
-/* menu..........: my-menu-            */
-
 @import url('./menu.css');
 @import url('./modalLogin.css');
 @import url('./modalCadastro.css');
