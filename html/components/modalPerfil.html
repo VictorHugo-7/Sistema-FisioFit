@@ -6,30 +6,36 @@
                 <h5 class="modal-title" id="perfilModalLabel">Meu Perfil</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <div class="d-flex align-items-center">
-                    <!-- Imagem do Perfil -->
-                    <div class="me-3">
-                        <img src="https://cdn-icons-png.flaticon.com/128/4625/4625826.png" alt="Foto do Perfil" class="rounded-circle" width="100" height="100">
-                    </div>
-                    <!-- Informações do Perfil -->
-                    <div>
-                        <h5 id="perfilNome">Nome do Usuário</h5>
-                        <p><strong>Problema:</strong> <span id="perfilProblema">Problema do Usuário</span></p>
-                        <p><strong>Descrição:</strong> <span id="perfilDescricao">Descrição do Usuário</span></p>
-                        <p><strong>Email:</strong> <span id="perfilEmail">usuario@example.com</span></p>
-                        <p><strong>Idade:</strong> <span id="perfilIdade">30 anos</span></p>
-                    </div>
+
+
+            <div class="my-modalPerfil-body d-flex">
+                <!-- Imagem do Perfil -->
+                <div class="my-modalPerfil-containerImg" me-3">
+                    <img class="my-modalPerfil-imagem" src="../../midia/components/modalPerfil/suaFoto.svg"
+                        alt="Foto do Perfil">
+                </div>
+
+                <!-- Informações do Perfil -->
+                <div class="my-modalPerfil-containerInformacoes">
+                    <h5>Cleiton da Silva</h5>
+                    <h6>Lesão no joelho</h6>
+                    <hr>
+                    <p>Lesão no joelho direito após intensificar os treinos para uma maratona.</p>
+                    <p><i class="fas fa-envelope"></i> paciente@gmail.com </p>
+                    <p><i class="fas fa-user-clock"></i> 28 anos</p>
                 </div>
             </div>
+
+
             <div class="modal-footer">
-                <!-- Botão de Editar -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editarPerfilModal">
-                    <i class="fa-solid fa-pen-to-square"></i> Editar
-                </button>
                 <!-- Botão de Sair -->
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
-                    <i class="fa-solid fa-sign-out-alt"></i> Sair
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fa-solid fa-sign-out-alt"></i> Deslogar
+                </button>
+                <!-- Botão de Editar -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#editarPerfilModal">
+                    <i class="fa-solid fa-pen-to-square"></i> Editar
                 </button>
             </div>
         </div>
@@ -37,7 +43,8 @@
 </div>
 
 <!-- Modal de Edição do Perfil -->
-<div class="modal fade" id="editarPerfilModal" tabindex="-1" aria-labelledby="editarPerfilModalLabel" aria-hidden="true">
+<div class="modal fade" id="editarPerfilModal" tabindex="-1" aria-labelledby="editarPerfilModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
             <div class="modal-header">
@@ -63,7 +70,7 @@
                         </div>
                         <div class="col-md-6 mb-3">
                             <label for="idade" class="form-label">Idade</label>
-                            <input type="number" class="form-control" id="idade" placeholder="30">
+                            <input type="number" class="form-control" id="idade" placeholder="Idade Usuário">
                         </div>
                     </div>
                     <div class="row">
@@ -79,8 +86,10 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary" id="salvarAlteracoes">Salvar Alterações</button>
+                <!-- Botão de Cancelar -->
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal"
+                    data-bs-target="#perfilModal">Cancelar</button>
+                <button type="button" class="btn btn-primary" id="salvarAlteracoes">Alterar</button>
             </div>
         </div>
     </div>

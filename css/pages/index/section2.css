@@ -47,10 +47,3 @@
 .my-index-s2-escrita{
     color: var(--corCinza);
 }
-
-
-@media (max-width: 992px) {
-    .my-index-s2-card{
-        height: 340px;
-    }
-}

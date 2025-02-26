@@ -1,0 +1,46 @@
+.my-modalPerfil-containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corBranco);
+    border-right: 10px solid var(--corBrancoSecundario);
+    padding: 20px;
+}
+
+.my-modalPerfil-containerImg img{
+    border: 3px solid var(--corVermelhoClaro);
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.my-modalPerfil-containerInformacoes{
+    background-color: var(--corVermelhoClaro);
+    color: var(--corBranco);
+    padding: 20px;
+}
+
+.my-modalPerfil-containerInformacoes p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.my-modalPerfil-containerInformacoes p i{
+    width: 25px;
+}
+
+@media (max-width: 992px) {
+    .my-modalPerfil-body {
+        flex-direction: column;
+        border: none;
+    }
+
+    .my-modalPerfil-containerImg img{
+        height: 150px;
+        width: 150px;
+    }
+
+    .my-modalPerfil-containerInformacoes{
+        text-align: center;
+    }
+}

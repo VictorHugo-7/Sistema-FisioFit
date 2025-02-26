@@ -37,9 +37,9 @@
 
 /* Btn Login */
 .my-menu-btnLogin{
-    background-color: red;
+    background-color: var(--corVermelhoEscuro);
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--corSombra);
     padding: 10px;
     border-radius: 10px;
     margin-left: 10px;
@@ -47,20 +47,23 @@
 }
 
 .my-menu-btnLogin:hover {
-    opacity: 75%;
+    opacity: 80%;
 }
 
 /* Btn Perfil */
 .my-menu-btnPerfil{
-    background-color: var(--corVermelhoEscuro);
-    color: var(--corBranco);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--corBranco);
+    color: var(--corVermelhoEscuro);
+    box-shadow: var(--corSombra);
+    border: 1px solid var(--corVermelhoEscuro);
     padding: 10px;
     border-radius: 10px;
     margin-left: 10px;
     text-decoration: none;
+    transition: background-color 0.5s ease, color 0.3s ease;
 }
 
 .my-menu-btnPerfil:hover {
-    opacity: 75%;
+    background-color: var(--corVermelhoEscuro);
+    color: var(--corBranco);
 }
