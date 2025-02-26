@@ -38,7 +38,7 @@
 
 <!-- Modal de Edição do Perfil -->
 <div class="modal fade" id="editarPerfilModal" tabindex="-1" aria-labelledby="editarPerfilModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="editarPerfilModalLabel">Editar Perfil</h5>
@@ -46,29 +46,35 @@
             </div>
             <div class="modal-body">
                 <form id="formEditarPerfil">
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="nome" placeholder="Nome do Usuário">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Nome do Usuário">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="problema" class="form-label">Problema</label>
+                            <input type="text" class="form-control" id="problema" placeholder="Problema do Usuário">
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="problema" class="form-label">Problema</label>
-                        <input type="text" class="form-control" id="problema" placeholder="Problema do Usuário">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="usuario@example.com">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="idade" class="form-label">Idade</label>
+                            <input type="number" class="form-control" id="idade" placeholder="30">
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="descricao" class="form-label">Descrição</label>
-                        <textarea class="form-control" id="descricao" placeholder="Descrição do Usuário"></textarea>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" placeholder="usuario@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="idade" class="form-label">Idade</label>
-                        <input type="number" class="form-control" id="idade" placeholder="30">
-                    </div>
-                    <div class="mb-3">
-                        <label for="foto" class="form-label">Alterar Foto</label>
-                        <input type="file" class="form-control" id="foto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="descricao" class="form-label">Descrição</label>
+                            <textarea class="form-control" id="descricao" placeholder="Descrição do Usuário"></textarea>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="foto" class="form-label">Alterar Foto</label>
+                            <input type="file" class="form-control" id="foto">
+                        </div>
                     </div>
                 </form>
             </div>
