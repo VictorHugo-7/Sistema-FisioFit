@@ -1,4 +1,4 @@
-fetch('../../html/components/modalLogin.html')
+fetch('../../src/html/components/modalLogin.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-modalLogin-importacao').innerHTML = data;

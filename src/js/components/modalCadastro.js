@@ -1,4 +1,4 @@
-fetch('../../html/components/modalCadastro.html')
+fetch('../../src/html/components/modalCadastro.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-modalCadastro-importacao').innerHTML = data;

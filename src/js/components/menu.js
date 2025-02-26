@@ -1,4 +1,4 @@
-fetch('../../html/components/menu.html')
+fetch('../../src/html/components/menu.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-menu-importacao').innerHTML = data;
