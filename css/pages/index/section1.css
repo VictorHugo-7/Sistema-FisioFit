@@ -1,0 +1,58 @@
+.my-s1Index-texto1 {
+    color: var(--corPreto);
+}
+
+.my-s1Index-texto3 {
+    color: var(--corCinza);
+    font-size: 14px;
+}
+
+.my-s1Index-logoFisio {
+    color: var(--corPreto);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.my-s1Index-logoFit {
+    color: var(--corVermelhoClaro);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* Btn  */
+.my-s1Index-btnLembretes {
+    background-color: var(--corVermelhoEscuro);
+    color: var(--corBranco);
+    box-shadow: var(--corSombra);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.my-s1Index-btnLembretes:hover {
+    opacity: 75%;
+}
+
+
+.my-s1Index-imagem {
+    box-shadow: var(--corSombra);
+    border-radius: 10px;
+    height: 400px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-s1Index-imagem:hover {
+    transform: scale(1.01);
+}
+
+@media (max-width: 992px) {
+    .my-s1-container {
+        flex-direction: column;
+    }
+
+    .my-s1Index-imagem {
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 240px;
+    }
+}

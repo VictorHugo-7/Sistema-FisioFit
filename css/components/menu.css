@@ -35,10 +35,25 @@
     color: var(--corVermelhoEscuro);
 }
 
-/* Btn Perfil */
-.my-menu-btnPerfil {
+/* Btn Login */
+.my-menu-btnLogin{
     background-color: red;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.my-menu-btnLogin:hover {
+    opacity: 75%;
+}
+
+/* Btn Perfil */
+.my-menu-btnPerfil{
+    background-color: var(--corVermelhoEscuro);
+    color: var(--corBranco);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 10px;

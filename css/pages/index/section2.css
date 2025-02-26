@@ -1,0 +1,56 @@
+/* Benefícios */
+.my-index-s2-benefícios {
+    display: inline-block;
+    position: relative;
+}
+.my-index-s2-benefícios::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 2px 0px;
+    background-color: var(--corCinza);
+    position: absolute;
+    left: 0;
+    border-radius: 20px;
+}
+
+
+
+/* Card */
+.my-index-s2-card{
+    box-shadow: var(--corSombra);
+    height: 270px;
+}
+.my-index-s2-card:hover {
+    transition: transform 0.6s ease;
+    transform: scale(1.01);
+}
+
+
+
+/* Ícone */
+.my-index-s2-icone{
+    font-size: 40px;
+}
+
+
+
+/* Título */
+.my-index-s2-titulo{
+    color: var(--corPreto);
+}
+
+
+
+/* Escrita */
+.my-index-s2-escrita{
+    color: var(--corCinza);
+}
+
+
+@media (max-width: 992px) {
+    .my-index-s2-card{
+        height: 340px;
+    }
+}

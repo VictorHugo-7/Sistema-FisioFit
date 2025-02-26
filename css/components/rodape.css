@@ -1,0 +1,14 @@
+.my-rodape-estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corPreto);
+    color: var(--corCinza);
+    padding: 15px;
+}
+
+.my-rodape-estilo p{
+    color: var(--corCinza);
+    font-size: 12px;
+    margin: 0;
+}
