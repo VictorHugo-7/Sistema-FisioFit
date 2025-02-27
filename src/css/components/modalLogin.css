@@ -1,5 +1,12 @@
+/* Ícones */
+.my-modalLogin-icones {
+    width: 40px;
+}
+
+
+
 /* Btn Entrar */
-.my-login-btnEntrar {
+.my-modalLogin-btnEntrar {
     width: 100%;
     background-color: var(--corVermelhoEscuro);
     color: var(--corBranco);
@@ -9,26 +16,26 @@
     border-radius: 10px;
 }
 
-.my-login-btnEntrar:hover {
+.my-modalLogin-btnEntrar:hover {
     opacity: 90%;
 }
 
 
 
 /* Linha Horizontal */
-.my-login-hr {
+.my-modalLogin-hr {
     color: var(--corCinza);
 }
 
 
 
-/* Clique Aqui */
-.my-login-cliqueAqui {
+/* Ainda não tem conta? Clique aqui */
+.my-modalLogin-cliqueAqui {
     color: var(--corVermelhoClaro);
     text-decoration: none;
 }
 
-.my-login-cliqueAqui:hover {
+.my-modalLogin-cliqueAqui:hover {
     color: var(--corVermelhoClaro);
     text-decoration: underline;
 }

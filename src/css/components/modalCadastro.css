@@ -1,5 +1,12 @@
+/* Ícones */
+.my-modalCadastro-icones {
+    width: 40px;
+}
+
+
+
 /* Btn Cadastrar */
-.my-cadastro-btnCadastrar {
+.my-modalCadastro-btnCadastrar {
     width: 100%;
     background-color: var(--corVermelhoEscuro);
     color: var(--corBranco);
@@ -9,27 +16,26 @@
     border-radius: 10px;
 }
 
-.my-cadastro-btnCadastrar:hover {
+.my-modalCadastro-btnCadastrar:hover {
     opacity: 90%;
-    cursor: pointer;
 }
 
 
 
 /* Linha Horizontal */
-.my-cadastro-hr {
+.my-modalCadastro-hr {
     color: var(--corCinza);
 }
 
 
 
-/* Tem Conta ? */
-.my-cadastro-temConta {
+/* Já tem conta? Clique aqui */
+.my-modalCadastro-cliqueAqui {
     color: var(--corVermelhoEscuro);
     text-decoration: none;
 }
 
-.my-cadastro-temConta:hover {
+.my-modalCadastro-cliqueAqui:hover {
     color: var(--corVermelhoEscuro);
     text-decoration: underline;
 }

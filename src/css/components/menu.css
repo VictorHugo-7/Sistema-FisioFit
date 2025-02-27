@@ -8,9 +8,11 @@
     top: 0;
 }
 
+
+
 /* Logo */
 .my-menu-logo {
-    height: 60px;
+    height: 50px;
 }
 
 .my-menu-logoFisio {
@@ -25,24 +27,36 @@
     font-weight: 500;
 }
 
+
+
 /* Links */
 .my-menu-links li a {
     color: var(--corPreto);
     text-decoration: none;
+    font-weight: 500;
 }
 
 .my-menu-links li a:hover {
     color: var(--corVermelhoEscuro);
 }
 
+.my-menu-links li:not(:has(img)) {
+    transition: transform 0.3s ease-in-out;
+}
+
+.my-menu-links li:not(:has(img)):hover {
+    transform: translateY(-3px);
+}
+
+
+
 /* Btn Login */
-.my-menu-btnLogin{
+.my-menu-btnLogin {
     background-color: var(--corVermelhoEscuro);
-    color: white;
+    color: var(--corBranco);
     box-shadow: var(--corSombra);
     padding: 10px;
     border-radius: 10px;
-    margin-left: 10px;
     text-decoration: none;
 }
 
@@ -50,20 +64,36 @@
     opacity: 80%;
 }
 
+
+
 /* Btn Perfil */
-.my-menu-btnPerfil{
+.my-menu-btnPerfil {
     background-color: var(--corBranco);
     color: var(--corVermelhoEscuro);
     box-shadow: var(--corSombra);
-    border: 1px solid var(--corVermelhoEscuro);
+    border: 2px solid var(--corVermelhoEscuro);
     padding: 10px;
     border-radius: 10px;
-    margin-left: 10px;
     text-decoration: none;
-    transition: background-color 0.5s ease, color 0.3s ease;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .my-menu-btnPerfil:hover {
     background-color: var(--corVermelhoEscuro);
     color: var(--corBranco);
+}
+
+
+
+/* Responsividade Links e Btns*/
+@media (max-width: 992px) {
+    .my-menu-links li {
+        margin-top: 10px;
+    }
+
+    .my-menu-links li a,
+    .my-menu-btnLogin,
+    .my-menu-btnPerfil {
+        font-size: 18px;
+    }
 }

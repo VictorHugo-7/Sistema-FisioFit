@@ -2,11 +2,13 @@ fetch('../../src/html/components/modalLogin.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('my-modalLogin-importacao').innerHTML = data;
-        // Configura o botão de alternância de senha
+
+        // Script Menu
+
+        // Script Mostrar Senha
         const toggleLoginPassword = document.querySelector('#toggleLoginPassword');
         const loginPassword = document.querySelector('#loginPassword');
         const loginEyeIcon = document.querySelector('#loginEyeIcon');
-
         if (toggleLoginPassword && loginPassword && loginEyeIcon) {
             toggleLoginPassword.addEventListener('click', function () {
                 const type = loginPassword.getAttribute('type') === 'password' ? 'text' : 'password';
