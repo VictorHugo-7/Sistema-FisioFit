@@ -3,8 +3,6 @@ fetch('../../src/html/components/modalCadastro.html')
     .then(data => {
         document.getElementById('my-modalCadastro-importacao').innerHTML = data;
 
-        // Script Menu
-
         // Script Mostrar Senha
         const toggleRegisterPassword = document.querySelector('#toggleRegisterPassword');
         const passwordCadastroInput = document.querySelector('#passwordCadastroInput');
@@ -15,5 +13,12 @@ fetch('../../src/html/components/modalCadastro.html')
             registerEyeIcon.classList.toggle('fa-eye');
             registerEyeIcon.classList.toggle('fa-eye-slash');
         });
+
+        // Script Aumentar Textarea Quando Usuario Digita
+        document.getElementById('descricaoProblemaInputCadastro').addEventListener('input', function () {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
     })
     .catch(error => console.error('Erro ao carregar a página:', error));

@@ -1,4 +1,5 @@
-.my-modalPerfil-containerImg{
+/* Container Imagem */
+.my-modalPerfil-containerImg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,40 +8,68 @@
     padding: 20px;
 }
 
-.my-modalPerfil-containerImg img{
+.my-modalPerfil-containerImg img {
     border: 3px solid var(--corVermelhoClaro);
     border-radius: 100%;
     height: 200px;
     width: 200px;
+
 }
 
-.my-modalPerfil-containerInformacoes{
+
+
+/* Container Informação */
+.my-modalPerfil-containerInformacoes {
     background-color: var(--corVermelhoClaro);
     color: var(--corBranco);
     padding: 20px;
 }
 
-.my-modalPerfil-containerInformacoes p{
+.my-modalPerfil-containerInformacoes p {
     font-weight: 300;
     font-size: 14px;
 }
 
-.my-modalPerfil-containerInformacoes p i{
+.my-modalPerfil-containerInformacoes p i {
     width: 25px;
 }
 
+
+
+/* Perfil ícone Olho */
+.my-modalPerfil-iconeOlho{
+    cursor: pointer;
+}
+
+
+
+/* Responsividade Modal Body, Container Imagem e Container Informações*/
 @media (max-width: 992px) {
     .my-modalPerfil-body {
         flex-direction: column;
         border: none;
     }
 
-    .my-modalPerfil-containerImg img{
+    .my-modalPerfil-containerImg img {
         height: 150px;
         width: 150px;
     }
 
-    .my-modalPerfil-containerInformacoes{
+    .my-modalPerfil-containerInformacoes {
         text-align: center;
     }
+}
+
+
+
+/* Formulário Ícones */
+.my-modalPerfil-icones {
+    width: 40px;
+}
+
+
+
+/* Formulário Desabilitar Redimensionamento Manual do Textarea */
+.my-modalPerfil-textarea {
+    resize: none;
 }

@@ -5,6 +5,13 @@
 
 
 
+/* Desabilitar Redimensionamento Manual do Textarea */
+.my-modalCadastro-textarea {
+    resize: none;
+}
+
+
+
 /* Btn Cadastrar */
 .my-modalCadastro-btnCadastrar {
     width: 100%;

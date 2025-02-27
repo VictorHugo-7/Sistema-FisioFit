@@ -1,18 +1,20 @@
-<!-- Modal do Perfil -->
+<!-- Modal Perfil -->
 <div class="modal fade" id="perfilModal" tabindex="-1" aria-labelledby="perfilModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+
+            <!-- Header -->
             <div class="modal-header">
-                <h5 class="modal-title" id="perfilModalLabel">Meu Perfil</h5>
+                <h5 class="modal-title" id="perfilModalLabel">Perfil</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
-
+            <!-- Body -->
             <div class="my-modalPerfil-body d-flex">
+
                 <!-- Imagem do Perfil -->
-                <div class="my-modalPerfil-containerImg" me-3">
-                    <img class="my-modalPerfil-imagem" src="../../midia/components/modalPerfil/suaFoto.svg"
-                        alt="Foto do Perfil">
+                <div class="my-modalPerfil-containerImg">
+                    <img src="../../../src/midia/components/modalPerfil/suaFoto.svg" alt="Foto Usuário">
                 </div>
 
                 <!-- Informações do Perfil -->
@@ -22,17 +24,24 @@
                     <hr>
                     <p>Lesão no joelho direito após intensificar os treinos para uma maratona.</p>
                     <p><i class="fas fa-envelope"></i> paciente@gmail.com </p>
+                    <p>
+                        <i class="fas fa-lock"></i>
+                        <span id="perfilPassword" class="me-2">******</span>
+                        <i id="perfilTogglePassword" class="my-modalPerfil-iconeOlho fas fa-eye"></i>
+                    </p>
                     <p><i class="fas fa-user-clock"></i> 28 anos</p>
                 </div>
             </div>
 
-
+            <!-- Footer -->
             <div class="modal-footer">
-                <!-- Botão de Sair -->
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+
+                <!-- Btn Sair -->
+                <button type="button" class="btn btn-secondary">
                     <i class="fa-solid fa-sign-out-alt"></i> Deslogar
                 </button>
-                <!-- Botão de Editar -->
+
+                <!-- Btn Editar -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#editarPerfilModal">
                     <i class="fa-solid fa-pen-to-square"></i> Editar
@@ -45,50 +54,79 @@
 <!-- Modal de Edição do Perfil -->
 <div class="modal fade" id="editarPerfilModal" tabindex="-1" aria-labelledby="editarPerfilModalLabel"
     aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
+
+            <!-- Header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="editarPerfilModalLabel">Editar Perfil</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
+
+            <!-- Body -->
             <div class="modal-body">
                 <form id="formEditarPerfil">
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="nome" class="form-label">Nome</label>
-                            <input type="text" class="form-control" id="nome" placeholder="Nome do Usuário">
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="problema" class="form-label">Problema</label>
-                            <input type="text" class="form-control" id="problema" placeholder="Problema do Usuário">
-                        </div>
+
+                    <!-- Foto -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-camera"></i></span>
+                        <input type="file" class="form-control form-control-sm" id="foto">
                     </div>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="usuario@example.com">
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="idade" class="form-label">Idade</label>
-                            <input type="number" class="form-control" id="idade" placeholder="Idade Usuário">
-                        </div>
+
+                    <!-- Nome -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-user"></i></span>
+                        <input type="text" id="nome" class="form-control form-control-sm" placeholder="Nome" />
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <label for="descricao" class="form-label">Descrição</label>
-                            <textarea class="form-control" id="descricao" placeholder="Descrição do Usuário"></textarea>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="foto" class="form-label">Alterar Foto</label>
-                            <input type="file" class="form-control" id="foto">
-                        </div>
+
+                    <!-- Problema -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-stethoscope"></i></span>
+                        <input type="text" id="problema" class="form-control form-control-sm"
+                            placeholder="Problema (ex: dor no joelho, dor no tendão)" />
+                    </div>
+
+                    <!-- Descrição do Problema -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-comment"></i></span>
+                        <textarea id="descricaoProblemaInputPerfil"
+                            class="my-modalPerfil-textarea form-control form-control-sm"
+                            placeholder="Descreva o problema"></textarea>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-envelope"></i></span>
+                        <input type="email" id="email" class="form-control form-control-sm" placeholder="Email" />
+                    </div>
+
+                    <!-- Senha -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-lock"></i></span>
+                        <input type="password" id="passwordPerfilInput" class="form-control form-control-sm"
+                            placeholder="Senha" />
+                        <button class="my-modalPerfil-icones btn btn-outline-secondary" type="button"
+                            id="togglePerfilPassword">
+                            <i class="fas fa-eye" id="perfilEyeIcon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Idade -->
+                    <div class="input-group mb-3">
+                        <span class="my-modalPerfil-icones input-group-text"><i class="fas fa-user-clock"></i></span>
+                        <input type="number" id="idade" class="form-control form-control-sm" placeholder="Idade" />
                     </div>
                 </form>
             </div>
+
+            <!-- Footer -->
             <div class="modal-footer">
-                <!-- Botão de Cancelar -->
+
+                <!-- Btn Cancelar -->
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal"
                     data-bs-target="#perfilModal">Cancelar</button>
+
+                <!-- Btn Alterar -->
                 <button type="button" class="btn btn-primary" id="salvarAlteracoes">Alterar</button>
             </div>
         </div>
