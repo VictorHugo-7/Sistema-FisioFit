@@ -1,9 +1,10 @@
-/* Benefícios */
-.my-index-s2-benefícios {
+/* Título Benefícios */
+.my-indexS2-benefícios {
     display: inline-block;
     position: relative;
 }
-.my-index-s2-benefícios::after {
+
+.my-indexS2-benefícios::after {
     content: "";
     display: block;
     width: 30px;
@@ -17,33 +18,53 @@
 
 
 
-/* Card */
-.my-index-s2-card{
+/* Card Container*/
+.my-indexS2-card {
     box-shadow: var(--corSombra);
+    border: none !important;
     height: 270px;
 }
-.my-index-s2-card:hover {
+
+.my-indexS2-card:hover {
     transition: transform 0.6s ease;
     transform: scale(1.01);
 }
 
 
 
-/* Ícone */
-.my-index-s2-icone{
+/* Card Ícone */
+.my-indexS2-icone {
+    color: var(--corPreto);
     font-size: 40px;
 }
 
 
 
-/* Título */
-.my-index-s2-titulo{
+/* Card Título */
+.my-indexS2-titulo {
     color: var(--corPreto);
 }
 
 
 
-/* Escrita */
-.my-index-s2-escrita{
+/* Card Escrita */
+.my-indexS2-escrita {
     color: var(--corCinza);
+}
+
+
+
+/* Responsividade Card Título e Escrita */
+@media (max-width: 500px) {
+    .my-indexS2-card {
+        height: 290px;
+    }
+
+    .my-indexS2-escrita {
+        font-size: 14px;
+    }
+
+    .my-indexS2-titulo {
+        font-size: 18px;
+    }
 }

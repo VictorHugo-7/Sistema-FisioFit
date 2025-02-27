@@ -1,26 +1,32 @@
-.my-s1Index-texto1 {
+/* Texto */
+.my-indexS1-texto1 {
     color: var(--corPreto);
 }
 
-.my-s1Index-texto3 {
+.my-indexS1-texto3 {
     color: var(--corCinza);
-    font-size: 14px;
+    font-size: 15px;
 }
 
-.my-s1Index-logoFisio {
+
+
+/* Logo Escrita*/
+.my-indexS1-logoFisio {
     color: var(--corPreto);
     font-size: 28px;
     font-weight: 500;
 }
 
-.my-s1Index-logoFit {
+.my-indexS1-logoFit {
     color: var(--corVermelhoClaro);
     font-size: 28px;
     font-weight: 500;
 }
 
-/* Btn  */
-.my-s1Index-btnLembretes {
+
+
+/* Btn Lembretes*/
+.my-indexS1-btnLembretes {
     background-color: var(--corVermelhoEscuro);
     color: var(--corBranco);
     box-shadow: var(--corSombra);
@@ -29,28 +35,34 @@
     text-decoration: none;
 }
 
-.my-s1Index-btnLembretes:hover {
+.my-indexS1-btnLembretes:hover {
     opacity: 75%;
 }
 
 
-.my-s1Index-imagem {
+
+/* Imagem */
+.my-indexS1-imagem {
     box-shadow: var(--corSombra);
     border-radius: 10px;
     height: 400px;
     transition: transform 0.3s ease-in-out;
 }
 
-.my-s1Index-imagem:hover {
+.my-indexS1-imagem:hover {
     transform: scale(1.01);
 }
 
+
+
+/* Responsividade Container e Imagem */
 @media (max-width: 992px) {
-    .my-s1-container {
+    .my-indexS1-container {
         flex-direction: column;
+        gap: 10px !important;
     }
 
-    .my-s1Index-imagem {
+    .my-indexS1-imagem {
         margin-left: 0px;
         margin-top: 40px;
         height: 300px;
