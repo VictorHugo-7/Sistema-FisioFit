@@ -1,5 +1,5 @@
 <!--TÍTULO-->
-# Sistema FisioFit <img src="https://cdn-icons-png.flaticon.com/128/3208/3208998.png" height="30px" alt="Fisioterapia">
+# Sistema FisioFit
 
 
 <!--DESCRIÇÃO-->
@@ -25,16 +25,16 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-![Protótipo](https://github.com/user-attachments/assets/ecfc51b0-f545-461d-b302-04d17c2dedaa)
+[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/8yoRN4ejvIXBWYDqUxUObV/Sistema-FisioFit?node-id=0-1&t=KIepw9mcSvlOm6MI-1)
 
 
 <!--PARTICIPANTES-->
 ## Participantes
-| Nome                            |   Foto                                                                                                     |
-|---------------------------------|------------------------------------------------------------------------------------------------------------|
-| Alvaro Nogueira Junqueira Souza |  <img src="https://github.com/user-attachments/assets/50c2ac2c-70fa-4c62-8f46-4b056f2288a4" width="50" /> |
-| Lucas Novaes de Sá Ferreira     |  <img src="https://github.com/user-attachments/assets/45b527b9-1e1c-40af-877d-ace876f76bac" width="50" /> |
-| Victor Hugo Pinho               |  <img src="https://avatars.githubusercontent.com/u/156820479?v=4" width="50" /> |
+| Nome                            |
+|---------------------------------|
+| Alvaro Nogueira Junqueira Souza |
+| Lucas Novaes de Sá Ferreira     |
+| Victor Hugo Pinho               |
 
 
 <!--DEPENDÊNCIAS-->
@@ -59,7 +59,7 @@ nodemon                   | ^3.1.9  | Reinicia o servidor ao detectar mudanças 
 ````
 1. Fork               | Crie uma cópia do repositório no seu perfil
 
-2. Clone              | git clone https://github.com/VictorHugo-7/Site-SaoCamilo-Hackathon
+2. Clone              | git clone https://github.com/VictorHugo-7/Sistema-FisioFit
 
 3. Crie uma Branch    | git checkout -b minha-branch
 
@@ -72,10 +72,6 @@ nodemon                   | ^3.1.9  | Reinicia o servidor ao detectar mudanças 
 6. Pull Request       | Solicite a inclusão de suas mudanças no repositório original.
 ````
 
-<!--LICENÇA-->
-## Licença
-[Veja a licença](https://github.com/VictorHugo-7/Site-SaoCamilo-Hackathon/blob/main/LICENSE)
-
 
 <!--ESTRUTURA DE PASTAS-->
 
@@ -87,5 +83,6 @@ nodemon                   | ^3.1.9  | Reinicia o servidor ao detectar mudanças 
 ![Linguagens](https://img.shields.io/github/languages/top/VictorHugo-7/Site-SaoCamilo-Hackathon)
 
 
-
-
+<!--LICENÇA-->
+## Licença
+[Veja a licença](https://github.com/VictorHugo-7/Site-SaoCamilo-Hackathon/blob/main/LICENSE)
