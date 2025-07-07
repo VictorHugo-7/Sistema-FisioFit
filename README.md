@@ -25,7 +25,7 @@
 
 <!--PROTÓTIPO-->
 ## Protótipo
-[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/8yoRN4ejvIXBWYDqUxUObV/Sistema-FisioFit?node-id=0-1&t=KIepw9mcSvlOm6MI-1)
+[![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/9zVJuRG7eACAAFGDM3D5Xq/Sistema-FisioFit?t=5KAcwSvzdnTQoeoP-1)
 
 
 <!--PARTICIPANTES-->
