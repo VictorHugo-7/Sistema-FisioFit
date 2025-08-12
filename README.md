@@ -1,15 +1,15 @@
 <!--TÍTULO-->
-# Sistema FisioFit
+<!-- # Sistema FisioFit
 
 
 <!--DESCRIÇÃO-->
-> Sistema voltado para fisioterapia.<br>
-> O projeto teve início durante o Hackathon promovido pelo Instituto Mauá de Tecnologia em parceria com a Universidade São Camilo e, agora, está sendo desenvolvido de forma independente pelo grupo formado no Hackathon.
-> O objetivo é sugerir exercícios simples de alongamento ou respiração, auxiliando os usuários a incorporarem práticas de autocuidado em suas rotinas diárias.
+<!-- > Sistema voltado para fisioterapia.<br>
+<!-- > O projeto teve início durante o Hackathon promovido pelo Instituto Mauá de Tecnologia em parceria com a Universidade São Camilo e, agora, está sendo desenvolvido de forma independente pelo grupo formado no Hackathon.
+<!-- > O objetivo é sugerir exercícios simples de alongamento ou respiração, auxiliando os usuários a incorporarem práticas de autocuidado em suas rotinas diárias.
 
 
 <!--STATUS-->
-## Status
+<!--## Status
 > ⏳ Em Desenvolvimento.
 
 
@@ -17,19 +17,19 @@
 
 
 <!--TECNOLOGIAS-->
-## Tecnologias
+<!--## Tecnologias
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="40"/> |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | HTML                                                                                                       | CSS                                                                                                        | JavaScript                                                                                                   | Bootstrap                                                                                                    | Node.js                                                                                                     | MongoDB                                                                                                      | Figma                                                                                                     |
 
 
 <!--PROTÓTIPO-->
-## Protótipo
+<!--## Protótipo
 [![](https://img.shields.io/badge/Figma--5C5C5C?logo=figma&logoColor=white)](https://www.figma.com/design/9zVJuRG7eACAAFGDM3D5Xq/Sistema-FisioFit?t=5KAcwSvzdnTQoeoP-1)
 
 
 <!--PARTICIPANTES-->
-## Participantes
+<!--## Participantes
 | Nome                            |
 |---------------------------------|
 | Alvaro Nogueira Junqueira Souza |
@@ -38,7 +38,7 @@
 
 
 <!--DEPENDÊNCIAS-->
-## Dependências
+<!--## Dependências
 ````
 axios                     | ^1.7.9  | Biblioteca para requisições HTTP.
 bcrypt                    | ^5.1.1  | Hashing de senhas para segurança.
@@ -55,7 +55,7 @@ nodemon                   | ^3.1.9  | Reinicia o servidor ao detectar mudanças 
 
 
 <!--CONTRIBUIÇÃO-->
-## Contribuição
+<!--## Contribuição
 ````
 1. Fork               | Crie uma cópia do repositório no seu perfil
 
