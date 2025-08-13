@@ -1,7 +1,16 @@
+import Login from "./page/Login";
+import Cadastro from "./page/Cadastro";
+
 function App() {
   return (
-    <div>Teste</div>
+    <div>
+      <Login />
+      <Cadastro />
+    </div>
   );
 }
 
 export default App;
+
+
+
